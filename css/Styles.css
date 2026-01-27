@@ -1,0 +1,249 @@
+@font-face {
+  font-family: 'Commissioner-Black';
+  src: url('../fonts/Commissioner-Black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Commissioner-Bold';
+  src: url('../fonts/Commissioner-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Commissioner-ExtraBold';
+  src: url('../fonts/Commissioner-ExtraBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Commissioner-ExtraLight';
+  src: url('../fonts/Commissioner-ExtraLight.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Commissioner-Light';
+  src: url('../fonts/Commissioner-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Commissioner-Medium';
+  src: url('../fonts/Commissioner-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Commissioner';
+  src: url('../fonts/Commissioner-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Commissioner-SemiBold';
+  src: url('../fonts/Commissioner-SemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Commissioner-Thin';
+  src: url('../fonts/Commissioner-Thin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+    background-color: black;
+    color: rgb(100, 100, 100);
+    font-family: 'Commissioner-Thin', Calibri;
+}
+
+.header {
+    font-size: 36px;
+    color: rgb(200, 200, 200);
+    font-family: 'Commissioner-SemiBold', Calibri;
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+    font-size: 24px;
+}
+
+.design {
+    letter-spacing: 4px;
+    font-size: 48px;
+    font-family: 'Commissioner-SemiBold', Calibri;
+    color: rgb(200, 200, 200);
+}
+
+.email {
+    font-size: 14px;
+}
+
+.navigation {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.nav-link {
+    padding: 1%;
+}
+
+a, a:active {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin: 1%;
+    padding: 2%;
+}
+
+img {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.slide {
+    display: none;
+}
+
+.info {
+    width: 30%;
+    position: relative;
+    margin: auto;
+}
+
+.headshot {
+    width: 30%;
+    margin-right: 10%;
+}
+
+.about-text {
+    text-align: left;
+    width: 70%;
+    margin-left: 10%;
+    padding: 2%;
+}
+
+p {
+    font-size: 16px;
+    padding: 5%;
+}
+
+.footer {
+    bottom: 0%;
+}
+
+.slideshow {
+    width: 70%;
+    position: relative;
+    margin: auto;
+    padding: 5%;
+}
+
+object {
+    width: 625px;
+    height: 400px;
+}
+
+.prev, .next {
+    position: absolute;
+    width: auto;
+    padding: 1%;
+    margin-top: 30%;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 5%;
+    user-select: none;
+    background-color: rgba(75, 75, 75, 0.8);
+}
+
+.prev {
+    left: 0%;
+}
+
+.next {
+    right: 0%;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(134, 134, 134, 0.8);
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+input, input:active, textarea, textarea:active {
+    background-color: rgb(45, 45, 45);
+    color: rgb(200, 200, 200);
+    font-size: 18px;
+    border-radius: 0 2% 2% 0;
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Commissioner-Thin';
+    text-align: left;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.contact-form {
+    text-align: center;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sound-tracks {
+    padding: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.bg-img {
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+
+    background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
+}

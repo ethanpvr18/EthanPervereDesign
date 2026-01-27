@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Ethan Pervere</title>
+            <link rel="stylesheet" href="../css/Styles.css">
+        </head>
+        <body>
+            <div class="name"><a href="index.html">ETHAN PERVERE<br> <span class="design">DESIGN</span></a></div>
+            <div class="navigation">
+                <a class="nav-link" href="scenic-design.html">SCENIC DESIGN</a>
+                <a class="nav-link" href="sound-design.html">SOUND DESIGN</a>
+                <a class="nav-link" href="about.html">ABOUT</a>
+                <a class="nav-link" href="contact.html">CONTACT</a>
+            </div>
+
+            <h1 class="header">CONTACT</h1>
+
+            <form class="contact-form" onsubmit="sendMessage(event)">
+                <input name="name" type="text" placeholder="Name" required>
+                <input name="email" type="email" placeholder="Email" required><br>
+                <textarea name="message" rows="10" cols="40" placeholder="Message" required></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+
+            <div class="name footer">ETHAN PERVERE<br> 
+                <span class="design">DESIGN</span><br> 
+                <a href="mailto:ethan.pervere@gmail.com?subject=From%20your%20portfolio"><span class="email">ETHAN.PERVERE@GMAIL.COM<span></a>
+            </div>
+
+            <script>
+                function sendMessage(event) {
+                    event.preventDefault();
+
+                    const form = event.target;
+                    const formData = new FormData(form);
+                    
+                    const data = {};
+                    formData.forEach((value, key) => {
+                        data[key] = value;
+                    });
+
+                    // const response = await fetch("", {
+                    //     method: "POST",
+                    //     headers: { "Content-Type": "application/json"},
+                    //     body: JSON.stringify(data)
+                    // });
+
+                    form.reset();
+                }
+            </script>
+        </body>
+    </html>
