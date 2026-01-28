@@ -171,8 +171,8 @@ p {
 }
 
 object {
-    width: 625px;
-    height: 400px;
+    width: 725px;
+    height: 450px;
 }
 
 .prev, .next {
@@ -240,7 +240,7 @@ input, input:active, textarea, textarea:active {
 }
 
 .bg-img {
-    width: 70%;
+    width: 100%;
     margin-left: 10%;
     margin-right: 10%;
     padding: 2%;
