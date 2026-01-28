@@ -120,8 +120,8 @@ a, a:active {
 
 .container {
     display: flex;
-    margin: 1%;
-    padding: 2%;
+    /* margin: 1%;
+    padding: 2%; */
 }
 
 img {
@@ -167,7 +167,7 @@ p {
     width: 70%;
     position: relative;
     margin: auto;
-    padding: 1%;
+    /* padding: 1%; */
 }
 
 .slideshow object {
