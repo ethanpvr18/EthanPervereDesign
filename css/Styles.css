@@ -170,7 +170,7 @@ p {
     padding: 5%;
 }
 
-object {
+.slideshow object {
     width: 100%;
     height: calc(100vh - 200px);
 }
