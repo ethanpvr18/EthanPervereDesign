@@ -167,12 +167,14 @@ p {
     width: 70%;
     position: relative;
     margin: auto;
-    padding: 5%;
+    padding: 1%;
 }
 
 .slideshow object {
+    display: block;
     width: 100%;
-    height: calc(100vh - 200px);
+    height: 90vh;
+    min-height: 600px
 }
 
 .prev, .next {
