@@ -85,12 +85,12 @@ body {
 
 .name {
     text-align: center;
-    font-size: 24px;
+    font-size: 15px;
 }
 
 .design {
     letter-spacing: 4px;
-    font-size: 48px;
+    font-size: 60px;
     font-family: 'Commissioner-SemiBold', Calibri;
     color: rgb(200, 200, 200);
 }
