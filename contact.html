@@ -3,31 +3,39 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Ethan Pervere</title>
+            <meta name="description" content="Ethan Pervere Design Contact Page">
+            <title>Ethan Pervere Design | Contact</title>
             <link rel="stylesheet" href="css/Styles.css">
+            <link rel="canonical">
         </head>
         <body>
-            <div class="name"><a href="index.html">ETHAN PERVERE<br> <span class="design">DESIGN</span></a></div>
-            <div class="navigation">
-                <a class="nav-link" href="scenic-design.html">SCENIC DESIGN</a>
-                <a class="nav-link" href="sound-design.html">SOUND DESIGN</a>
-                <a class="nav-link" href="about.html">ABOUT</a>
-                <a class="nav-link" href="contact.html">CONTACT</a>
-            </div>
+            <header>
+                <div class="name"><h1><a href="index.html">ETHAN PERVERE<br> <span class="design">DESIGN</span></a></h1></div>
+                <nav class="navigation">
+                    <a class="nav-link" href="scenic-design.html">SCENIC DESIGN</a>
+                    <a class="nav-link" href="sound-design.html">SOUND DESIGN</a>
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </nav>
+            </header>
+            
+            <main>
+                <section>
+                    <h1 class="header">CONTACT</h1>
 
-            <h1 class="header">CONTACT</h1>
+                    <form class="contact-form" onsubmit="sendMessage(event)">
+                        <input name="name" type="text" placeholder="Name" required>
+                        <input name="email" type="email" placeholder="Email" required><br>
+                        <textarea name="message" rows="10" cols="40" placeholder="Message" required></textarea><br>
+                        <input type="submit" value="Send">
+                    </form>   
+                </section>
+            </main>
 
-            <form class="contact-form" onsubmit="sendMessage(event)">
-                <input name="name" type="text" placeholder="Name" required>
-                <input name="email" type="email" placeholder="Email" required><br>
-                <textarea name="message" rows="10" cols="40" placeholder="Message" required></textarea><br>
-                <input type="submit" value="Send">
-            </form>
-
-            <div class="name footer">ETHAN PERVERE<br> 
-                <span class="design">DESIGN</span><br> 
+            <footer class="name footer"><h2>ETHAN PERVERE</h2><br> 
+                <p><span class="design">DESIGN</span></p><br> 
                 <a href="mailto:ethan.pervere@gmail.com?subject=From%20your%20portfolio"><span class="email">ETHAN.PERVERE@GMAIL.COM<span></a>
-            </div>
+            </footer>
 
             <script>
                 async function sendMessage(event) {
