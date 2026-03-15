@@ -79,7 +79,8 @@ body {
 .header {
     color: rgb(200, 200, 200);
     font-family: 'Commissioner-SemiBold', Calibri;
-
+    text-align: center;
+    margin: 0;
     font-size: 24px;
 }
 
@@ -87,32 +88,30 @@ body {
     color: rgb(200, 200, 200);
 
     padding: 0;
-    gap: 0;
+    /* gap: 0; */
     text-align: center;
-    line-height: 0.9;
-    width: fit-content;
-    margin: 0 auto;
-    display: flex;
+    /* line-height: 0.9; */
+    /* width: fit-content; */
+    margin: 0;
+    /* display: flex;
     flex-direction: column;
-    align-items: flex-start;
-}
-
-.footer { 
-    font-size: 24px;
+    align-items: flex-start; */
 }
 
 .name {
     font-family: 'Commissioner-Thin', Calibri;
-    font-size: 15px;
+    font-size: 25px;
+    text-align: center;
 
-    letter-spacing: 0.08em;
+    letter-spacing: 0.07em;
 }
 
 .design {
     font-family: 'Commissioner-SemiBold', Calibri;
-    font-size: 60px;
+    font-size: 50px;
+    text-align: center;
 
-    letter-spacing: 0.08em;
+    letter-spacing: 0.14em;
 }
 
 .email {
