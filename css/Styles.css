@@ -77,24 +77,47 @@ body {
 }
 
 .header {
-    line-height: 1;
-    font-size: 24px;
     color: rgb(200, 200, 200);
     font-family: 'Commissioner-SemiBold', Calibri;
-    text-align: center;
-    margin: 0;
+
+    font-size: 24px;
+}
+
+.logo {
+    color: rgb(200, 200, 200);
+    font-family: 'Commissioner-SemiBold', Calibri;
+    /* margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    text-align: left;
+
+    line-height: 0.9; */
+
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer {
+    font-size: 24px;
 }
 
 .name {
-    text-align: center;
     font-size: 15px;
+
+    letter-spacing: 0.08em;
 }
 
 .design {
-    letter-spacing: 3.5px;
     font-size: 60px;
-    font-family: 'Commissioner-SemiBold', Calibri;
-    color: rgb(200, 200, 200);
+
+    letter-spacing: 0.08em;
 }
 
 .email {
@@ -160,15 +183,6 @@ img {
 p {
     font-size: 16px;
     padding: 5%;
-}
-
-.footer {
-    line-height: 1;
-    font-size: 24px;
-    color: rgb(200, 200, 200);
-    font-family: 'Commissioner-SemiBold', Calibri;
-    text-align: center;
-    margin: 0;
 }
 
 .slideshow {
