@@ -81,7 +81,7 @@ body {
     font-family: 'Commissioner-SemiBold', Calibri;
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 2% 0% 2% 0%;
     font-size: 24px;
 }
 
@@ -130,7 +130,7 @@ footer {
     margin-top: 1%;
     text-align: center;
     font-size: 16px;
-    padding: 1% 0% 1% 0%;
+    padding: 0;
 }
 
 .nav-link {
