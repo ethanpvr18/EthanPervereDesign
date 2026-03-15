@@ -81,6 +81,7 @@ body {
     color: rgb(200, 200, 200);
     font-family: 'Commissioner-SemiBold', Calibri;
     text-align: center;
+    margin: 0;
 }
 
 .name {
@@ -161,8 +162,8 @@ p {
 }
 
 .footer {
-    line-height: 0.75;
-    bottom: 0%;
+    line-height: 1;
+    margin: 0;
 }
 
 .slideshow {
