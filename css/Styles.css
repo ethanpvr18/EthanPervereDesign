@@ -130,6 +130,7 @@ footer {
     margin-top: 1%;
     text-align: center;
     font-size: 16px;
+    padding: 2% 0% 2% 0%;
 }
 
 .nav-link {
@@ -270,6 +271,7 @@ input, input:active, textarea, textarea:active {
     margin-left: 0;
     margin-right: 0;
     padding: 2%;
+    text-align: center;
 
     background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
 }
