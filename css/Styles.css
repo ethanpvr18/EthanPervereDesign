@@ -98,11 +98,11 @@ footer {
 
 .logo {
     color: rgb(200, 200, 200);
-
     padding: 0;
-    display: inline-block;
+    margin: 0 auto;
+    display: block;
     text-align: center;
-    margin: 0;
+    width: fit-content;
 }
 
 .name {
@@ -265,10 +265,11 @@ input, input:active, textarea, textarea:active {
 }
 
 .bg-img {
-    width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 90%;
+    margin-left: 0;
+    margin-right: auto;
     padding: 2%;
+    display: block;
 
     background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
 }
