@@ -87,7 +87,7 @@ body {
 header {
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin: 0 0 10 0;
 }
 
 footer {
@@ -265,11 +265,10 @@ input, input:active, textarea, textarea:active {
 }
 
 .bg-img {
-    width: 90%;
+    width: 100%;
     margin-left: 0;
-    margin-right: auto;
+    margin-right: 0;
     padding: 2%;
-    display: block;
 
     background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
 }
