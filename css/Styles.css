@@ -88,14 +88,8 @@ body {
     color: rgb(200, 200, 200);
 
     padding: 0;
-    /* gap: 0; */
     text-align: center;
-    /* line-height: 0.9; */
-    /* width: fit-content; */
     margin: 0;
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-start; */
 }
 
 .name {
