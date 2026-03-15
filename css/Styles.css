@@ -81,12 +81,13 @@ body {
     font-family: 'Commissioner-SemiBold', Calibri;
     text-align: center;
     margin: 0;
+    padding-top: 2%;
     font-size: 24px;
 }
 
 header {
     text-align: center;
-    padding: 0% 0% 2% 0%;
+    padding: 0;
     margin: 0;
 }
 
