@@ -275,3 +275,8 @@ input, input:active, textarea, textarea:active {
 
     background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
 }
+
+.resume {
+    text-align: center;
+    text-decoration: underline;
+}
