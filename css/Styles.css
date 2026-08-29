@@ -287,7 +287,7 @@ input, input:active, textarea, textarea:active {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     grid-auto-rows: clamp(160px, 32vw, 500px);
-    gap: 8px;
+    gap: 12px;
 }
 
 .parent > div {
