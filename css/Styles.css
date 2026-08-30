@@ -502,3 +502,8 @@ input, input:active, textarea, textarea:active {
     text-decoration: underline !important;
     text-underline-offset: 2px;
 }
+
+.drafting-page .parent img {
+    object-fit: contain;
+    background-color: black;
+}
