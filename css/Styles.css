@@ -497,3 +497,7 @@ input, input:active, textarea, textarea:active {
     color: rgb(180, 180, 180);
     line-height: 1.7;
 }
+
+.award-link {
+    text-decoration: underline;
+}
