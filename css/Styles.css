@@ -508,3 +508,19 @@ input, input:active, textarea, textarea:active {
     object-position: center;
     background-color: black;
 }
+
+.drafting-page .parent {
+    grid-auto-rows: auto !important;
+    align-items: start;
+}
+
+.drafting-page .parent > div {
+    overflow: visible !important;
+}
+
+.drafting-page .parent img {
+    display: block;
+    width: 100%;
+    height: auto !important;
+    object-fit: contain !important;
+}
