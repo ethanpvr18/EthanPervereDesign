@@ -500,6 +500,7 @@ input, input:active, textarea, textarea:active {
 
 .about-text a.award-link {
     text-decoration: underline !important;
+    text-decoration-thickness: 0.5px !important;
     text-underline-offset: 2px;
 }
 
