@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
         <url>
             <loc>https://ethanpervere.com/</loc>
             <lastmod>2026-08-30</lastmod>
@@ -7,6 +8,34 @@
         <url>
             <loc>https://ethanpervere.com/carrie-the-musical.html</loc>
             <lastmod>2026-08-30</lastmod>
+
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/1.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/2.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/3.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/4.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/5.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/6.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/7.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/8.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/9.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/10.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/12.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/13.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/14.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/15.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/16.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/17.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/img/carrie-the-musical/18.webp</image:loc></image:image>
+
+            <image:image><image:loc>https://ethanpervere.com/pdf/carrie-the-musical/1.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/pdf/carrie-the-musical/2.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/pdf/carrie-the-musical/3.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/pdf/carrie-the-musical/4.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/pdf/carrie-the-musical/5.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/pdf/carrie-the-musical/6.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/pdf/carrie-the-musical/7.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/pdf/carrie-the-musical/8.webp</image:loc></image:image>
+            <image:image><image:loc>https://ethanpervere.com/pdf/carrie-the-musical/9.webp</image:loc></image:image>
         </url>
         <url>
             <loc>https://ethanpervere.com/gem-of-the-ocean.html</loc>
