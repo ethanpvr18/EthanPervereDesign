@@ -503,23 +503,18 @@ input, input:active, textarea, textarea:active {
     text-underline-offset: 2px;
 }
 
-.drafting-page .parent img {
-    object-fit: contain !important;
-    object-position: center;
-    background-color: black;
-}
-
 .drafting-page .parent {
+    grid-template-columns: 1fr !important;
     grid-auto-rows: auto !important;
-    align-items: start;
+    gap: 24px;
 }
 
 .drafting-page .parent > div {
+    grid-column: 1 !important;
     overflow: visible !important;
 }
 
 .drafting-page .parent img {
-    display: block;
     width: 100%;
     height: auto !important;
     object-fit: contain !important;
