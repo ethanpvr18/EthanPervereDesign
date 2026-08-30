@@ -475,3 +475,25 @@ input, input:active, textarea, textarea:active {
 .dropdown-content div:hover {
     background-color: #e6e6e6;
 }
+
+.home-intro {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px 55px;
+    text-align: center;
+}
+
+.home-intro h1 {
+    margin: 0 0 18px;
+    color: rgb(200, 200, 200);
+    font-family: 'Commissioner-SemiBold', Calibri;
+    font-size: 24px;
+    letter-spacing: 0.06em;
+}
+
+.home-intro p {
+    margin: 0 auto 18px;
+    padding: 0;
+    color: rgb(180, 180, 180);
+    line-height: 1.7;
+}
