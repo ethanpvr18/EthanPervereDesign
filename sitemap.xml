@@ -95,9 +95,12 @@
                 <image:loc>https://ethanpervere.com/pdf/sound-design/SPELLING-BEE_INPUT-LIST.webp</image:loc>
             </image:image>
         </url>
-        <url>
+       <url>
             <loc>https://ethanpervere.com/about.html</loc>
             <lastmod>2026-08-30</lastmod>
+            <image:image>
+                <image:loc>https://ethanpervere.com/img/about/profile.webp</image:loc>
+            </image:image>
         </url>
         <url>
             <loc>https://ethanpervere.com/contact.html</loc>
