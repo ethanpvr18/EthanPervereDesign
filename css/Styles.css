@@ -528,3 +528,9 @@ input, input:active, textarea, textarea:active {
         grid-template-columns: 1fr !important;
     }
 }
+
+.production-references a {
+    text-decoration-line: underline !important;
+    text-decoration-thickness: 1px !important;
+    text-underline-offset: 2px;
+}
