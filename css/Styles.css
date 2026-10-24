@@ -137,8 +137,6 @@ footer {
     display: inline-block;
     white-space: nowrap;
     padding: 1%;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 a, a:active {
@@ -445,6 +443,8 @@ input, input:active, textarea, textarea:active {
 .dropdown {
     position: relative;
     display: inline-block;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .dropbtn {
     background-color: #000000;
