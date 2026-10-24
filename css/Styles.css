@@ -137,6 +137,8 @@ footer {
     display: inline-block;
     white-space: nowrap;
     padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 a, a:active {
