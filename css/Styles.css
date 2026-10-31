@@ -596,3 +596,8 @@ a.link {
     margin: 0;
     text-align: center;
 }
+
+.home-intro-text h1,
+.home-intro-text p {
+    text-align: center;
+}
