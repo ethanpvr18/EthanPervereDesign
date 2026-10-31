@@ -702,3 +702,39 @@ a.link {
         outline-offset: 3px;
     }
 }
+
+/* Center the mobile hamburger */
+@media (max-width: 768px) {
+    .mobile-navigation > summary {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+/* Mobile: text first, portrait second, links last */
+@media (max-width: 600px) {
+    .home-intro {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-intro-text {
+        order: 1;
+        width: 100%;
+        flex: none;
+    }
+
+    .home-intro > .home-headshot {
+        order: 2;
+        flex: none;
+        margin: 0 auto;
+    }
+
+    .home-intro > .home-intro-links {
+        order: 3;
+        flex: none;
+        width: 100%;
+        text-align: center;
+    }
+}
