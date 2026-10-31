@@ -581,3 +581,18 @@ a.link {
         flex: none;
     }
 }
+
+.home-intro {
+    flex-wrap: wrap;
+}
+
+.home-intro-text {
+    flex: 1 1 0;
+}
+
+.home-intro > .home-intro-links {
+    flex: 0 0 100%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
