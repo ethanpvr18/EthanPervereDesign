@@ -745,3 +745,30 @@ button.next {
     border: 0;
     font: inherit;
 }
+
+.beautiful-page .parent {
+    grid-auto-rows: auto;
+    align-items: start;
+}
+
+.beautiful-page .parent > div {
+    min-width: 0;
+    overflow: visible;
+}
+
+.beautiful-page .parent img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.beautiful-page .info {
+    max-width: 100%;
+}
+
+.beautiful-page .info p {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.5;
+}
