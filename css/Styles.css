@@ -903,9 +903,15 @@ button.next {
 /* Sound portfolio: larger media column */
 .sound-page .container {
     display: grid;
-    grid-template-columns: minmax(0, 3fr) minmax(0, 1fr);
-    gap: 32px;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    gap: 12px;
     align-items: center;
+    margin: 0 0 12px;
+    padding: 0;
+}
+
+.sound-page .container > .slideshow {
+    padding: 0;
 }
 
 .sound-page .container > .slideshow,
