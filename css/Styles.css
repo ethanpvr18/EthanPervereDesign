@@ -806,3 +806,16 @@ button.next {
         height: auto;
     }
 }
+
+/* Fill the gallery frames, including portrait photos */
+.beautiful-page .parent > div:not(.div2) {
+    display: block;
+}
+
+.beautiful-page .parent > div:not(.div2) > img {
+    width: 100%;
+    max-width: 100%;
+    height: clamp(160px, 32vw, 500px);
+    object-fit: cover;
+    object-position: center;
+}
