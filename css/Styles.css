@@ -857,32 +857,3 @@ button.next {
         height: 100%;
     }
 }
-
-/* Show every gallery photo in full */
-.beautiful-page .parent {
-    grid-auto-rows: auto;
-    align-items: start;
-}
-
-.beautiful-page .parent > div:not(.div2) {
-    display: block;
-    position: static;
-    height: auto;
-    min-height: 0;
-    aspect-ratio: auto;
-    overflow: visible;
-    align-self: start;
-}
-
-.beautiful-page .parent > div:not(.div2) > img {
-    display: block;
-    position: static;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    min-height: 0;
-    max-height: none;
-    aspect-ratio: auto;
-    object-fit: contain;
-    margin: 0;
-}
