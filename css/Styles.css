@@ -881,3 +881,21 @@ button.next {
     margin: 0 0 20px;
     line-height: 1.5;
 }
+
+.beautiful-page .parent > div:not(.div2) {
+    display: block;
+    position: static;
+    min-height: 0;
+    height: auto;
+    overflow: visible;
+}
+
+.beautiful-page .parent > div:not(.div2) > img {
+    display: block;
+    position: static;
+    width: 100%;
+    max-width: 100%;
+    height: clamp(160px, 32vw, 500px);
+    object-fit: contain;
+    object-position: center;
+}
