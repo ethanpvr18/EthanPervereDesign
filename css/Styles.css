@@ -899,3 +899,24 @@ button.next {
     object-fit: contain;
     object-position: center;
 }
+
+/* Sound portfolio: larger media column */
+.sound-page .container {
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 1fr);
+    gap: 32px;
+    align-items: center;
+}
+
+.sound-page .container > .slideshow,
+.sound-page .container > .info {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+    .sound-page .container {
+        grid-template-columns: 1fr;
+    }
+}
