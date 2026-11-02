@@ -806,3 +806,40 @@ button.next {
         height: auto;
     }
 }
+
+/* Beautiful: rows sized to the photos' proportions */
+.beautiful-page .parent {
+    display: block;
+}
+
+.beautiful-page .parent > .beautiful-row {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 12px;
+    margin-bottom: 12px;
+    overflow: visible;
+}
+
+.beautiful-page .parent .beautiful-row > div {
+    display: block;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.beautiful-page .parent .beautiful-row img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.beautiful-page .parent .beautiful-row > .div2 {
+    overflow: visible;
+}
+
+@media (max-width: 700px) {
+    .beautiful-page .parent > .beautiful-row {
+        grid-template-columns: 1fr !important;
+    }
+}

@@ -24,7 +24,7 @@
             <meta name="twitter:image:alt" content="Carole King at a black grand piano beneath white spotlights, with an amber geometric backdrop and blue stage lighting">
 
             <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-            <link rel="stylesheet" href="/css/Styles.css?v=20261102-2">
+            <link rel="stylesheet" href="/css/Styles.css?v=20261102-3">
 
             <meta name="robots" content="max-image-preview:large">
 
@@ -966,6 +966,49 @@
                         showDetailImage(detailIndex + 1);
                     }
                 });
+            </script>
+
+            <script>
+            (() => {
+                const gallery = document.querySelector(".beautiful-page .parent");
+                if (!gallery) return;
+
+                const items = Array.from(gallery.children);
+
+                for (let i = 0; i < items.length; i += 2) {
+                    const row = document.createElement("div");
+                    row.className = "beautiful-row";
+
+                    gallery.insertBefore(row, items[i]);
+                    row.appendChild(items[i]);
+
+                    if (items[i + 1]) {
+                        row.appendChild(items[i + 1]);
+                    }
+
+                    // Keep the opening photo and credits in their existing proportions.
+                    if (row.querySelector(".div2")) continue;
+
+                    const photos = Array.from(row.querySelectorAll("img"));
+
+                    const sizeColumns = () => {
+                        const ratios = photos.map(photo =>
+                            photo.naturalWidth && photo.naturalHeight
+                                ? photo.naturalWidth / photo.naturalHeight
+                                : 1.5
+                        );
+
+                        row.style.gridTemplateColumns =
+                            ratios.map(ratio => `${ratio}fr`).join(" ");
+                    };
+
+                    photos.forEach(photo => {
+                        photo.addEventListener("load", sizeColumns);
+                    });
+
+                    sizeColumns();
+                }
+            })();
             </script>
         </body>
     </html>
