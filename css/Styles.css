@@ -847,3 +847,18 @@ button.next {
         height: clamp(160px, 32vw, 500px);
     }
 }
+
+/* Taller gallery photos on desktop */
+@media (min-width: 701px) {
+    .beautiful-page .parent > div:not(.div2) > img {
+        height: clamp(350px, 42vw, 750px);
+    }
+
+    .beautiful-page .parent > .div1 {
+        min-height: clamp(350px, 42vw, 750px);
+    }
+
+    .beautiful-page .parent > .div1 > img {
+        height: 100%;
+    }
+}
