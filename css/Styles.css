@@ -820,11 +820,6 @@ button.next {
     object-position: center;
 }
 
-/* Align gallery crops to the top */
-.beautiful-page .parent > div:not(.div2) > img {
-    object-position: center top;
-}
-
 /* Stretch the first photo to match the credits */
 .beautiful-page .parent > .div1 {
     position: relative;
