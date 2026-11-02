@@ -738,3 +738,10 @@ a.link {
         text-align: center;
     }
 }
+
+button.prev,
+button.next {
+    background: transparent;
+    border: 0;
+    font: inherit;
+}
