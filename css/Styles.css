@@ -777,3 +777,32 @@ button.next {
     font-family: 'Commissioner-Thin', Calibri, sans-serif;
     font-weight: normal;
 }
+
+/* Match photo heights; crop only the sides */
+.beautiful-page .parent > div:not(.div2) {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.beautiful-page .parent img {
+    flex-shrink: 0;
+    width: auto;
+    max-width: none;
+    height: clamp(160px, 32vw, 500px);
+    object-fit: contain;
+}
+
+/* Keep the credits fully visible */
+.beautiful-page .parent > .div2 {
+    overflow: visible;
+}
+
+/* Show full photos on mobile */
+@media (max-width: 700px) {
+    .beautiful-page .parent img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
