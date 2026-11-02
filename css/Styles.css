@@ -772,3 +772,8 @@ button.next {
     overflow-wrap: anywhere;
     line-height: 1.5;
 }
+
+.beautiful-page .header .subtitle {
+    font-family: 'Commissioner-Thin', Calibri, sans-serif;
+    font-weight: normal;
+}
